@@ -1,0 +1,9 @@
+@mixin width{
+    max-width:85%;
+    width:100%;
+    margin:0 auto;
+
+    @media screen and (min-width:1200px){
+        max-width: 80%;
+    }
+}
